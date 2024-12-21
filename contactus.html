@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+    <nav class="navbar">
+        <div class="navbar-brand">GLAMOUR</div>
+        <div class="logo"><a href="#"></a> </div>
+
+
+        <button class="navbar-toggle" id="toggleButton">Menu</button>
+        <ul class="navbar-links" id="navbarLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+         </ul>   
+        
+    </nav>
+
+    <section class="hero-banner2">
+        <img src="images/call.png" alt="Drive Glamourously" class="hero-image">
+         <div class="overlay-text1">
+        <h1>Contact us</h1>
+    </div>
+    </section>
+
+    <section class="contact-footer">
+    <p>If you have doubts or questions, feel free to contact us or book a quick meeting with us, so we can consult with you on what would be your best option.</p>
+</section>
+
+<section class="booking-calendar">
+    <h2>Book Your Call</h2>
+    <form>
+        <label for="booking-date">Select a date:</label>
+        <input type="date" id="booking-date" name="booking-date" required>
+        
+        <label for="booking-time">Select a time:</label>
+        <input type="time" id="booking-time" name="booking-time" required>
+        
+        <button type="submit">Confirm Booking</button>
+    </form>
+</section>
+
+
+
+
+   <div class="contact-details">
+    <p>
+    <a href="mailto:support@glamour.com"> Send Mail</a></p>
+    <p> <a href="tel:0877634832" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+  <li class="call-button">Click to Call</li></a></p>
+</div>
+</body>
+</html>
+     
+
+
